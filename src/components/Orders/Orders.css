@@ -1,12 +1,19 @@
 .order {
   border: 1px solid black;
-  display: inline-block;
   margin: 10px;
   background-color: #FFF;
+  border-radius: 5px;
+  height: 200px;
 }
 
 .ingredient-list {
   list-style-type: none;
   padding: 0;
   width: 150px;
+}
+
+section {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
 }

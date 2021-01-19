@@ -1,0 +1,24 @@
+.btn {
+  height: 43px;
+  width: 110px;
+  margin: 5px;
+  background-color: #bee5d3;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #184d47;
+  color: #fff;
+}
+
+input {
+  height: 30px;
+  width: 250px;
+}
+
+p {
+  font-weight: bold;
+}
