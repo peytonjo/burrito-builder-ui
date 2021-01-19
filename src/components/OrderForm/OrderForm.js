@@ -29,7 +29,7 @@ class OrderForm extends Component {
     if(this.state.name !== '' && this.state.ingredients !== []) {
       return true
     } else {
-      window.alert('You need to select at least one ingredient to place an order! ')
+      window.alert('You are missing an ingredient or name for the order :)')
     }
   }
 
